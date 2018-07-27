@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" type="image/png" href="oma/static/crowis_logo.png"/>
+		<title>OMA</title>
+        <meta charset="utf-8">
+        {{ bokeh_css }}
+        {{ bokeh_js }}
+        <link rel="stylesheet" href="oma/static/css/styles.css"/>
+    </head>
+    <body>
+        <div class="container">
+            {{ plot_div|indent(8) }}
+            {{ plot_script|indent(8) }}
+        </div>
+    </body>
+</html>

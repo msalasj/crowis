@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #505050;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+	min-width: 1280px;
+}
+.container {
+    margin: 0px auto;
+    position: relative;
+    padding: 0;
+    width: 1280px;
+}
+/* Bokeh Models */
+.bk-widget-form-input {
+    width: auto;
+}
+/* Login */
+.login_logo {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 490px;
+    top: 20px;
+}
+.login_title1 {
+    position: absolute;
+    width: 1000px;
+    left: 140px;
+    top: 20px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
+.login_line {
+    position: absolute;
+    width: 1000px;
+    height: 10;
+    left: 140px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
+.login_title2 {
+    position: absolute;
+    width: 640px;
+    left: 320px;
+    font-size:24px;
+    text-align: center;
+    font-weight: normal;
+}
+.login_validation {
+    position: absolute;
+    width: 420px;
+    left: 430px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    color: red;
+}
+.login_user {
+    position: absolute;
+    width: 420px;
+    left: 430px;
+    font-size: 12px;
+}
+.login_password {
+    position: absolute;
+    width: 420px;
+    left: 430px;
+    font-size: 12px;
+}
+.login_button_go {
+    position: absolute;
+    width: 128px;
+    left: 576px;
+    font-weight: bold;
+}
+/* Panel*/
+.panel_logo {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+}
+.panel_title {
+    position: absolute;
+    width: 680px;
+    height: 100px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
+.panel_menu {
+    position: absolute;
+    width: 150px;
+    left: 75px;
+}
+/* Monitoring */
+.monitoring_fig2 {
+    position: absolute;
+    top: 20px;
+}
+.monitoring_fig3 {
+    position: absolute;
+    left: 40px;
+}
+.monitoring_menu1 {
+    position: absolute;
+    left: 40px;
+    width: 150px;
+}
+.monitoring_menu2 {
+    position: absolute;
+    left: 240px;
+    width: 200px;
+}
+.monitoring_menu3 {
+    position: absolute;
+    left: 490px;
+    width: 150px;
+}
+.monitoring_menu4 {
+    position: absolute;
+    left: 40px;
+    width: 150px;
+}
+.monitoring_menu5 {
+    position: absolute;
+    left: 240px;
+    width: 200px;
+}
+.monitoring_menu6 {
+    position: absolute;
+    left: 490px;
+    width: 150px;
+}
+.monitoring_fig4 {
+    position: absolute;
+    top: 20px;
+}
+.monitoring_fig5 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.monitoring_fig6 {
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
+.monitoring_button_group1 {
+    position: absolute;
+    top: 10px;
+    left: 535px;
+    width: 250px;
+}
+/* Admin */
+.admin_title {
+    font-size:20px;
+    font-weight: bold;
+}
+.admin_user_list{
+    position: absolute;
+    width: 200px;
+}
+.admin_user {
+    position: absolute;
+    width: 200px;
+}
+.admin_password {
+    position: absolute;
+    width: 200px;
+    left: 250px;
+}
+.admin_name {
+    position: absolute;
+    width: 200px;
+}
+.admin_email {
+    position: absolute;
+    width: 200px;
+    left: 250px;
+}
+.admin_profile {
+    position: absolute;
+    width: 150px;
+}
+.admin_save_button {
+    position: absolute;
+    width: 100px;
+}
+.admin_delete_button {
+    position: absolute;
+    width: 100px;
+    left: 150px;
+}
+.admin_subtitle {
+    font-size:14px;
+}
+/* Mantenimiento */
+.mtt_title {
+    font-size:16px;
+    font-weight: bold;
+    width: 1000px;
+}
+.mtt_menu1 {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+.mtt_menu2 {
+    position: absolute;
+    left: 270px;
+    width: 200px;
+}
+.mtt_menu3 {
+    position: absolute;
+    left: 540px;
+    width: 200px;
+}
+.mtt_menu4 {
+    position: absolute;
+    left: 810px;
+    width: 200px;
+}
+.mtt_menu5 {
+    position: absolute;
+    left: 1080px;
+    width: 200px;
+}
+.mtt_fig2 {
+    position: absolute;
+    left: 70px;
+}
+.mtt_fig3 {
+    position: absolute;
+    top: 20px;
+}
+.mtt_fig4 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.mtt_text2 {
+    position: absolute;
+    font-size:14px;
+    width: 300px;
+    left: 50px;
+    top: 25px;
+}
+.mtt_menu7 {
+    position: absolute;
+    width: 70px;
+    left: 50px;
+}
+.mtt_menu8 {
+    position: absolute;
+    width: 70px;
+    left: 160px;
+}
+.mtt_menu9 {
+    position: absolute;
+    width: 70px;
+    left: 270px;
+}
+.mtt_menu6 {
+    position: absolute;
+    width: 70px;
+    left: 380px;
+}
+.mtt_checkbox1{
+    position: absolute;
+    width: 150px;
+    left: 50px;
+}
+.mtt_button1 {
+    position: absolute;
+    width: 100px;
+    left: 220px;
+}
+.mtt_text3 {
+    position: absolute;
+    font-size:12px;
+    width: 200px;
+    height: 160px;
+    border:1px solid black;
+    overflow: scroll;
+    left: 470px;
+}
+.mtt_fig5 {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    width: 800px;
+    height: 300px;
+}
+
+.mtt_title3 {
+    position: absolute;
+    font-size:16px;
+    font-weight: bold;
+    width: 1000px;
+    top: 20px;
+}
+.mtt_text1 {
+    position: absolute;
+    font-size:14px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+}
+.mtt_rbutton1 {
+    position: absolute;
+    width: 150px;
+    left: 120px;
+}
+.mtt_button2 {
+    position: absolute;
+    width: 110px;
+    left: 270px;
+}
+.mtt_button3 {
+    position: absolute;
+    width: 100px;
+    left: 410px;
+}
+/* Testing */

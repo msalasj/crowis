@@ -22,7 +22,7 @@ try:
     logging.info('Universe generation')
     gui.universe_generation(data, cfg)
     # send-email
-    logging.info('Sending report')
+    # logging.info('Sending report')
     # gui.send_report(cfg)
     logging.info('Process finished')
 except Exception as exc:
