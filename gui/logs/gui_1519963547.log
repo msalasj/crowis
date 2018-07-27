@@ -1,0 +1,31 @@
+2018-03-01 23:05:47,095 INFO: GUI: Generación de Universos de Interventoría
+2018-03-01 23:05:47,095 INFO: Getting data from db
+2018-03-01 23:05:47,153 INFO: File db/data/reclamos.csv loaded
+2018-03-01 23:05:47,695 INFO: File db/data/anomalect.csv loaded
+2018-03-01 23:05:47,943 INFO: File db/data/anomafact.csv loaded
+2018-03-01 23:05:47,944 INFO: Data wrangling
+2018-03-01 23:05:48,010 INFO: unique NIS filter
+2018-03-01 23:05:48,170 INFO: Field ORIGEN processed
+2018-03-01 23:05:48,171 INFO: Field DESCRIPCION added
+2018-03-01 23:05:48,201 INFO: Field PROCESO processed
+2018-03-01 23:05:48,240 INFO: Field PENULTIMA_LECTURA added
+2018-03-01 23:05:48,260 INFO: Field TIPOEQUIPO added
+2018-03-01 23:05:49,786 INFO: Added LAT, LON and DELEGACION fields
+2018-03-01 23:05:49,804 INFO: Cabeceras filter
+2018-03-01 23:05:49,816 INFO: unique NIF filter
+2018-03-01 23:05:49,853 INFO: Field ASOCIADO_COMERCIAL processed
+2018-03-01 23:05:49,872 INFO: NOM_CLIENTE processed
+2018-03-01 23:05:49,879 INFO: Columns sorted
+2018-03-01 23:05:49,887 INFO: Universe generation
+2018-03-01 23:05:49,936 INFO: Universe generated to Atlantico Norte
+2018-03-01 23:05:49,961 INFO: Universe generated to Atlantico Sur
+2018-03-01 23:05:49,991 INFO: Universe generated to Bolivar Norte
+2018-03-01 23:05:50,026 INFO: Universe generated to Bolivar Sur
+2018-03-01 23:05:50,050 INFO: Universe generated to Cesar
+2018-03-01 23:05:50,075 INFO: Universe generated to Cordoba Norte
+2018-03-01 23:05:50,098 INFO: Universe generated to Cordoba Sur
+2018-03-01 23:05:50,120 INFO: Universe generated to Guajira
+2018-03-01 23:05:50,146 INFO: Universe generated to Magdalena
+2018-03-01 23:05:50,169 INFO: Universe generated to Sucre
+2018-03-01 23:05:50,171 INFO: Sending report
+2018-03-01 23:05:50,171 INFO: Process finished

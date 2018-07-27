@@ -1,0 +1,30 @@
+2018-03-01 22:47:54,098 INFO: GUI: Generación de Universos de Interventoría
+2018-03-01 22:47:54,098 INFO: Getting data from db
+2018-03-01 22:47:54,154 INFO: File db/data/reclamos.csv loaded
+2018-03-01 22:47:54,666 INFO: File db/data/anomalect.csv loaded
+2018-03-01 22:47:54,915 INFO: File db/data/anomafact.csv loaded
+2018-03-01 22:47:54,915 INFO: Data wrangling
+2018-03-01 22:47:54,991 INFO: unique NIS filter
+2018-03-01 22:47:54,996 INFO: Reclamos filter applied
+2018-03-01 22:47:55,017 INFO: Field ORIGEN processed
+2018-03-01 22:47:55,018 INFO: Field DESCRIPCION added
+2018-03-01 22:47:55,020 INFO: Field PROCESO processed
+2018-03-01 22:47:55,023 INFO: Field PENULTIMA_LECTURA added
+2018-03-01 22:47:55,026 INFO: Field TIPOEQUIPO added
+2018-03-01 22:47:56,366 INFO: Added LAT, LON and DELEGACION fields
+2018-03-01 22:47:56,368 INFO: Cabeceras filter
+2018-03-01 22:47:56,370 INFO: unique NIF filter
+2018-03-01 22:47:56,378 INFO: Field ASOCIADO_COMERCIAL processed
+2018-03-01 22:47:56,379 INFO: NOM_CLIENTE processed
+2018-03-01 22:47:56,380 INFO: Columns sorted
+2018-03-01 22:47:56,389 INFO: Universe generation
+2018-03-01 22:47:56,395 ERROR: 'numpy.float64' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "main.py", line 23, in <module>
+    gui.universe_generation(data, cfg)
+  File "/Users/jonate/Google Drive/Projects/crowis/gui/gui.py", line 136, in universe_generation
+    dd = selection(dd, workday, wd, ud)
+  File "/Users/jonate/Google Drive/Projects/crowis/gui/gui.py", line 247, in selection
+    rpos = np.random.choice(len(pw), ud, replace=False)
+  File "mtrand.pyx", line 1192, in mtrand.RandomState.choice
+TypeError: 'numpy.float64' object cannot be interpreted as an integer
